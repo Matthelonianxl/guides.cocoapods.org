@@ -14,7 +14,7 @@ gem 'rake'
 gem 'sass'
 
 gem 'slim', '< 2.0'
-gem 'yard', "~> 0.8.6.2"
+gem 'yard', '~> 0.9.20.0'
 
 gem 'activesupport'
 gem 'pygments.rb', '~> 0.6.0'
