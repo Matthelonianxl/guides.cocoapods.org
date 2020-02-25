@@ -171,7 +171,7 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rake (11.1.1)
+    rake (13.0.1)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -227,11 +227,11 @@ DEPENDENCIES
   middleman-sprockets
   nokogiri
   pygments.rb (~> 0.6.0)
-  rake
+  rake (>= 12.3.3)
   redcarpet!
   sass
   slim (< 2.0)
   yard (~> 0.8.6.2)
 
 BUNDLED WITH
-   1.16.3
+   1.17.3

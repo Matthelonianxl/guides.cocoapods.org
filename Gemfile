@@ -10,7 +10,7 @@ gem 'middleman-gh-pages', :git => "https://github.com/orta/middleman-gh-pages.gi
 gem "middleman-livereload", "~> 3.1.0"
 
 gem 'redcarpet', github: 'vmg/redcarpet', ref: 'cef9abbcc411d07fd1b8c80e348a80efde2db323'
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 gem 'sass'
 
 gem 'slim', '< 2.0'
