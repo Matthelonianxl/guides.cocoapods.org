@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}.git" }
 
-gem "middleman"
+gem "middleman", ">= 4.3.8"
 
 gem 'middleman-rouge'
 gem "middleman-sprockets"
