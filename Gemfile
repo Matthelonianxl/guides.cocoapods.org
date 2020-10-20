@@ -21,7 +21,7 @@ gem 'pygments.rb', '~> 0.6.0'
 gem 'github-markup'
 gem 'nokogiri'
 
-gem 'cocoapods', '> 0.a'
+gem 'cocoapods', '>= 1.10.0'
 
 group :development do
   gem 'foreman'
