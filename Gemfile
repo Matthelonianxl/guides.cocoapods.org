@@ -19,7 +19,7 @@ gem 'yard', "~> 0.8.6.2"
 gem 'activesupport'
 gem 'pygments.rb', '~> 0.6.0'
 gem 'github-markup'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.11.0'
 
 gem 'cocoapods', '> 0.a'
 
