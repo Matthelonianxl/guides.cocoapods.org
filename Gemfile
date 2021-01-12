@@ -4,7 +4,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}.git" }
 
 gem "middleman"
 
-gem 'middleman-rouge'
+gem 'middleman-rouge', '>= 0.0.1'
 gem "middleman-sprockets"
 gem 'middleman-gh-pages', :git => "https://github.com/orta/middleman-gh-pages.git"
 gem "middleman-livereload", "~> 3.1.0"
