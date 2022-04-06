@@ -17,7 +17,7 @@ gem 'slim', '< 2.0'
 gem 'yard', "~> 0.8.6.2"
 
 gem 'activesupport'
-gem 'pygments.rb', '~> 0.6.0'
+gem 'pygments.rb', '~> 1.0.0'
 gem 'github-markup'
 gem 'nokogiri'
 
