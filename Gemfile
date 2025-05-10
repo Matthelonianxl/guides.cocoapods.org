@@ -2,10 +2,10 @@ source 'https://rubygems.org'
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}.git" }
 
-gem "middleman"
+gem "middleman", ">= 4.6.0"
 
 gem 'middleman-rouge'
-gem "middleman-sprockets"
+gem "middleman-sprockets", ">= 4.0.0"
 gem 'middleman-gh-pages', :git => "https://github.com/orta/middleman-gh-pages.git"
 gem "middleman-livereload", "~> 3.1.0"
 
