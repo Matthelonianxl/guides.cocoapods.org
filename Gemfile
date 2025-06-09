@@ -2,12 +2,12 @@ source 'https://rubygems.org'
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}.git" }
 
-gem "middleman"
+gem "middleman", ">= 4.4.0"
 
 gem 'middleman-rouge'
-gem "middleman-sprockets"
+gem "middleman-sprockets", ">= 4.0.0"
 gem 'middleman-gh-pages', :git => "https://github.com/orta/middleman-gh-pages.git"
-gem "middleman-livereload", "~> 3.1.0"
+gem "middleman-livereload", "~> 3.4.1"
 
 gem 'redcarpet', github: 'vmg/redcarpet', ref: 'cef9abbcc411d07fd1b8c80e348a80efde2db323'
 gem 'rake'
@@ -21,7 +21,7 @@ gem 'pygments.rb', '~> 0.6.0'
 gem 'github-markup'
 gem 'nokogiri'
 
-gem 'cocoapods', '> 0.a'
+gem 'cocoapods', '>= 1.11.0'
 
 group :development do
   gem 'foreman'
